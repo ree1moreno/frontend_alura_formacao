@@ -8,8 +8,14 @@ body {
     background-color: #000;
     color: #F6F6F6;
     font-family: 'Roboto', sans-serif;
+    height: 100vh;
 }
 
 .emphasis-title {
     color: #22D4FD;
+}
+
+.presentation {
+    align-items: center;
+    display: flex;
 }
