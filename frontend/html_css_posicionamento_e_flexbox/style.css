@@ -37,3 +37,21 @@ body {
     font-family:"Montserrat", serif;
     font-weight: 400;
 }
+
+.presentation__links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.presentation__links__link {
+    background-color: #22D4FD;
+    border-radius: 16px;
+    color: #000;
+    font-family:"Montserrat", serif;
+
+    font-size: 24px;
+    padding: 21.5px 0;
+    text-decoration: none;
+    text-align: center;
+    width: 280px;
+}
