@@ -9,7 +9,6 @@
 body {
     background-color: #000;
     color: #F6F6F6;
-    height: 100vh;
 }
 
 .emphasis-title {
@@ -20,7 +19,7 @@ body {
     align-items: center;
     display: flex;
     justify-content: space-between;
-    margin: 10% 15%;
+    padding: 8% 15%;
 }
 
 .presentation__content {
@@ -74,4 +73,13 @@ body {
 
 .presentation__links__link:hover {
     background-color: #272727;
+}
+
+.footer {
+    background-color: #22D4FD;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    padding: 24px;
+    text-align: center;
 }
