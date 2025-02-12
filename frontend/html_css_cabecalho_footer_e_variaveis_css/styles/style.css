@@ -11,15 +11,28 @@ body {
     color: #F6F6F6;
 }
 
-.emphasis-title {
+.header {
+    padding: 2% 0 0 15%;
+}
+
+.header__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.header__menu__link {
     color: #22D4FD;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
 }
 
 .presentation {
     align-items: center;
     display: flex;
     justify-content: space-between;
-    padding: 8% 15%;
+    padding: 5% 15%;
 }
 
 .presentation__content {
@@ -32,6 +45,11 @@ body {
 .presentation__content__title {
     font-size: 36px;
     font-family: "Krona One", serif;
+}
+
+
+.emphasis-title {
+    color: #22D4FD;
 }
 
 .presentation__content__text {
