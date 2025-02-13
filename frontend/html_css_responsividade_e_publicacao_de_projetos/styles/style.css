@@ -48,7 +48,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    width: 615px;
+    width: 50%;
 }
 
 .presentation__content__title {
@@ -81,7 +81,7 @@ body {
     font-weight: 400;
 }
 
-.presentation__links__link {
+.presentation__links__navigation {
     align-items: flex-end;
     border: 2px solid var(--color-tertiary);
     border-radius: 8px;
@@ -95,11 +95,15 @@ body {
     padding: 21.5px 0;
     text-decoration: none;
     text-align: center;
-    width: 378px;
+    width: 50%;
 }
 
 .presentation__links__link:hover {
     background-color: var(--color-hover);
+}
+
+.presentation__image {
+    width: 50%;
 }
 
 .footer {
