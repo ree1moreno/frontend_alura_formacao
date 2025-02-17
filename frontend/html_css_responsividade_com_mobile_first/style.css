@@ -1,11 +1,5 @@
 :root {
-    --cor-de-fundo: #EBECEE
-}
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    --cor-de-fundo: #EBECEE;
 }
 
 body {
