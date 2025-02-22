@@ -1,0 +1,43 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 18px 80px;
+}
+
+.navbar__logo {
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    gap: 0.5em;
+}
+
+.logo__text {
+    font-size: 18px;
+}
+
+.navbar__list {
+    align-items: center;
+    display: flex;
+    gap: 32px;
+    justify-content: space-between;
+    margin-right: 250px;
+}
+
+.navbar__list-item, .navbar__links-login {
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+
+.navbar__links {
+    align-items: center;
+    display: flex;
+    gap: 12px;
+}
+
+.navbar__links-signup {
+    color: var(--background-color);
+    background-color: var(--tertiary-color);
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 1em
+}
