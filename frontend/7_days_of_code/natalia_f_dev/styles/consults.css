@@ -1,0 +1,21 @@
+.consults {
+    align-items: center;
+    display: flex;
+    gap: 1em;
+    padding: 3em 5em 2em 2em;
+}
+
+.consults__image {
+    border-radius: 50%;
+    width: 20%;
+}
+
+.consults__title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+}
+
+.consults__text {
+    color: var(--secondary-color);
+}

@@ -1,0 +1,12 @@
+.header {
+    color: var(--tertiary-color);
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: space-between;
+    padding: 0.625em 1em;
+}
+
+.header__icons {
+    display: flex;
+    gap: 1em;
+}
