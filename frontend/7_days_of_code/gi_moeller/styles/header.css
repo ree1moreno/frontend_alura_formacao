@@ -1,26 +1,26 @@
 .navbar {
     display: flex;
     justify-content: space-around;
-    padding: 18px 80px;
+    padding: 1.125rem 5rem;
 }
 
 .navbar__logo {
     align-items: center;
     display: flex;
     cursor: pointer;
-    gap: 0.5em;
+    gap: 0.5rem;
 }
 
 .logo__text {
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 .navbar__list {
     align-items: center;
     display: flex;
-    gap: 32px;
+    gap: 2rem;
     justify-content: space-between;
-    margin-right: 250px;
+    margin-right: 15rem;
 }
 
 .navbar__list-item, .navbar__links-login {
@@ -31,7 +31,7 @@
 .navbar__links {
     align-items: center;
     display: flex;
-    gap: 12px;
+    gap: 0.75rem;
 }
 
 .navbar__links-signup {
@@ -39,5 +39,29 @@
     background-color: var(--tertiary-color);
     border-radius: 8px;
     cursor: pointer;
-    padding: 1em
+    padding: 1rem
+}
+
+.about {
+    padding: 5rem;
+    text-align: center;
+}
+
+.about__subtitle {
+    color: var(--tertiary-color);
+    font-weight: 600;
+}
+
+.about__title {
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 2rem 0;
+}
+
+.about__text {
+    color: var(--secondary-color);
+    font-size: 1.25rem;
+    line-height: 1.5;
+    margin: 0 auto;
+    width: 70%;
 }
