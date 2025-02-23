@@ -1,6 +1,7 @@
 @import url('styles/header.css');
 @import url('styles/consults.css');
 @import url('styles/cards.css');
+@import url('styles/footer.css');
 
 :root {
     --primary-color: #464646;
