@@ -1,5 +1,6 @@
 @import url('styles/header.css');
 @import url('styles/consults.css');
+@import url('styles/cards.css');
 
 :root {
     --primary-color: #464646;
@@ -8,11 +9,12 @@
     --background-color: #FFFFFF;
     --primary-button: #FFB050;
     --secondary-button: #4894FF;
+    --tertiary-button: #ECECEC;
     --primary-font: 'Montserrat', serif;
 }
 
 body {
-    background-color: #ECECEC;
+    background-color: var(--tertiary-button);
     color: var(--primary-color);
     font-family: var(--primary-font);
     font-size: 14px;
