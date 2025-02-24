@@ -93,9 +93,16 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .cards__info {
+    .cards__list  {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2em;
+        margin: 0 auto;
+        max-width: 80vw;
     }
 
-    .cards__details {
+    .cards__title {
+        font-size: 1.125em;
+        margin: 0 6em 1.25em;
     }
 }
