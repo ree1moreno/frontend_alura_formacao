@@ -1,0 +1,24 @@
+.metrics {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 5rem 6rem;
+    padding: 1rem;
+}
+
+.metrics__info-title {
+    color: var(--tertiary-color);
+    font-size: 3.75rem;
+    font-weight: 700;
+}
+
+.metrics__info-subtitle {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+
+.metrics__info-text {
+    color: var(--secondary-color);
+    line-height: 1.5;
+    width: 70%;
+}
