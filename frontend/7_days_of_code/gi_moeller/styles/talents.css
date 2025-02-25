@@ -1,0 +1,32 @@
+.talents {
+    padding: 0 5rem;
+}
+
+.talents__area {
+    text-align: center;
+}
+
+.talents__area-subtitle {
+    background: #8e24240a;
+    border-radius: 1rem;
+    color: var(--tertiary-color);
+    display: inline;
+    font-size: 0.875rem;
+    font-weight: 500;
+    padding: 0.5rem 0.75rem;
+}
+
+.talents__area-title {
+    font-size: 2.25rem;
+    margin: 1.25rem 0;
+}
+
+.talents__area-text {
+    color: var(--secondary-color);
+    font-size: 1.25rem;
+}
+
+.talents__image {
+    margin: 4rem 0;
+    width: 100%;
+}
