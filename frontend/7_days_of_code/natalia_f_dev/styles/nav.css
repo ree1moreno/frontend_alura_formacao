@@ -1,0 +1,55 @@
+.nav {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .main {
+        position: relative;
+        left: 12rem;
+    }
+
+    .nav {
+        background-color: var(--background-color);
+        border-right: 3px solid #a3a3a35b;
+        display: block;
+        float: left;
+        height: 100vh;
+        margin-right: 1.25rem;
+        padding: 2rem 1.5rem 2rem 0.5rem;
+        position: fixed;
+        width: 10vw;
+    }
+
+    .nav__icons {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        cursor: pointer;
+    }
+
+    .nav__icons-info {
+        display: flex;
+    }
+
+    .nav__text {
+        margin-top: 0.3rem;
+    }
+
+    .nav__text:hover {
+        font-weight: 700;
+    }
+
+    .consult__text {
+        color: var(--secondary-button);
+    }
+
+    .nav__image {
+        width: 3rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .main {
+        left: 14rem;
+    }
+}
