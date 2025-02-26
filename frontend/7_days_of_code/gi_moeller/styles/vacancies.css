@@ -1,5 +1,7 @@
 .vacancies {
     padding: 0 5em 6rem;
+    margin: 0 auto;
+    width: 60vw;
 }
 
 .vacancies__title {
