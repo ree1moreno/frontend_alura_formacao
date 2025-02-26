@@ -1,0 +1,30 @@
+.vacancies {
+    padding: 0 5em 6rem;
+}
+
+.vacancies__title {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.vacancies__infos {
+    border: 1px solid var(--stroke-color);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.vacancies__infos + .vacancies__title {
+    margin-top: 4rem;
+}
+
+.vacancies__infos-title {
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+}
+
+.vacancies__infos-details {
+    color: var(--secondary-color);
+    display: flex;
+    gap: 1.5rem;
+}

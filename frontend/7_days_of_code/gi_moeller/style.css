@@ -1,6 +1,7 @@
 @import url('styles/header.css');
 @import url('styles/metrics.css');
 @import url('styles/talents.css');
+@import url('styles/vacancies.css');
 
 :root {
     --primary-color: #101828;
@@ -8,6 +9,7 @@
     --tertiary-color: #8E2424;
     --background-color: #FFFFFF;
     --primary-font: 'Inter', serif;
+    --stroke-color: #EAECF0;
 }
 
 body {
