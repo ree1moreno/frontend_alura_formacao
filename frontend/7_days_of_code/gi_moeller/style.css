@@ -2,6 +2,7 @@
 @import url('styles/metrics.css');
 @import url('styles/talents.css');
 @import url('styles/vacancies.css');
+@import url('styles/statements.css');
 
 :root {
     --primary-color: #101828;
