@@ -12,6 +12,7 @@
     border-radius: 50%;
     bottom: 3em;
     cursor: pointer;
+    display: block;
     padding: 1.25em;
     position: fixed;
     right: 1em;
@@ -20,6 +21,10 @@
 @media screen and (min-width: 1024px) {
     
     .footer__icons {
+        display: none;
+    }
+
+    .icon {
         display: none;
     }
 }

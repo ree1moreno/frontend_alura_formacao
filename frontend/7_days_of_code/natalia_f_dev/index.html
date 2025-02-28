@@ -312,6 +312,37 @@
                 </div>
             </div>
         </section>
+
+        <section class="form__container">
+            <form action="#" class="form">
+                <h2 class="form__title">Nova Consulta</h2>
+
+                <label for="name" class="form__label column">
+                    <span class="form__input-title">Nome</span>
+                    <input type="text" name="name" id="name" class="form__input">
+                </label>
+
+                <select name="" class="form__select">
+                    <option value="Escolha o tipo de consulta" selected>Escolha o tipo de consulta</option>
+                    <option value="Consulta na casa do paciente">Consulta na casa do paciente</option>
+                    <option value="Consulta por vídeo">Consulta por vídeo</option>
+                </select>
+
+                <label for="date" class="form__label column">
+                    <span class="form__date-text">Data e horário da consulta</span>
+                    <input type="datetime-local" name="date" id="date" class="form__date">
+                </label>
+
+                <label for="area" class="form__label column">
+                    <span class="form__obs">Observações</span>
+                    <textarea name="area" id="area" class="form__area" rows="5" cols="25"></textarea>
+                </label>
+
+                <button type="submit" class="form_button">
+                    Cadastrar
+                </button>
+            </form>
+        </section>
     </main>
 
     <footer class="footer">

@@ -6,6 +6,7 @@
     .main {
         position: relative;
         left: 12rem;
+        width: 85vw;
     }
 
     .nav {
@@ -48,8 +49,9 @@
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1768px) {
     .main {
         left: 14rem;
+        width: 87vw;
     }
 }
