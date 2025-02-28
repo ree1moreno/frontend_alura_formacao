@@ -3,6 +3,7 @@
 @import url('styles/talents.css');
 @import url('styles/vacancies.css');
 @import url('styles/statements.css');
+@import url('styles/footer.css');
 
 :root {
     --primary-color: #101828;
